@@ -1,0 +1,46 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+
+vector-database:
+  base-url: "http://localhost:8000"
+  endpoints:
+    image-based-search: "/api/image-based-search"
+    text-based-search: "/api/text-based-search"
+
+search:
+  image:
+    #save-directory: "/home/atakan/Desktop"
+    save-directory: "/Users/eliflale/Desktop"
+
+gallery:
+  images:
+    #save-directory: "C:/Users/lenovo/Desktop/temp-server"
+    save-directory: "/Users/eliflale/Desktop/temp-server"
+
+spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres
+#    username: eliflale
+#    password: simvec
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+  mail:
+    host: smtp.office365.com
+    port: 587
+    username: simvec_project@outlook.com
+    password: simvec_password
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  main:
+    allow-circular-references: true
