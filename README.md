@@ -1,11 +1,8 @@
-## [SimVec](https://senior.ceng.metu.edu.tr/2024/SIMVEC/)
-
-<img width="2400" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/b4aa5575-0fbc-4861-b3f3-6071a27489d9">
-
+## [SimVec Website](https://senior.ceng.metu.edu.tr/2024/SIMVEC/)
 
 
 ## Description
-In our modern world, we all have lots of photos on our phones, and it can be a real hassle to find the one you're looking for. SimVec is here to make that easy. With SimVec, you can search for photos in two cool ways: you can find similar images by using a picture you already have, or you can type in a description to find pictures that match. 
+In our modern world, we all have lots of photos on our phones, and it can be a real hassle to find the one you're looking for. SimVec is here to make that easy. With SimVec, you can search for photos in two different ways: you can find similar images by using a picture you already have, or you can type in a description to find pictures that match. 
 
 As a user of SimVec, you will be uploading your gallery to the server to be converted to vectors by Machine Learning models and stored in a Vector Database. Once this operation is done, you will be able to upload a brand new picture that you want to find the similar ones in your gallery. Or you will also be able to send a text query to the server that describes the image you are looking for.
 
@@ -16,16 +13,12 @@ SimVec is a small and easy-to-use app, with some extra features to make it even 
 
 ## Simvec Demo Video
 
-
-
 https://github.com/atakangelecek/SimVec/assets/63200204/a95f5886-9c17-4bf8-a326-9bc88c8be62a
-
-
 
 
 ## Component Diagram
 
-<img width="706" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/fccdcaee-aa5f-4bb9-8345-88378d83eff7">
+![image](https://github.com/user-attachments/assets/ff6d4559-8320-4f30-842b-18b0f6bbe611)
 
 The description of the overall system architecture above is the following. There shall be a client application, namely Mobile Application, that the user can interact with. This client application shall have a good-looking and user friendly GUI in the front-end part. This client application shall send and receive data with the server. Although there may be several data incoming and outgoing in the client application, the main data that will be sent and received is the image or text.
 
@@ -118,6 +111,6 @@ When a user performs a search, the request (image-based or text-based) is sent t
 
 The user receives the search results on their device, which includes the images similar to their query.
 
-<img width="1455" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/279e7370-6fe3-4bd4-a8dd-c1b3f4c489b5">
+![image](https://github.com/user-attachments/assets/925bd94c-044b-4300-be5c-baf84513bc8d)
 
 
