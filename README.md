@@ -1,6 +1,6 @@
 ## [SimVec](https://senior.ceng.metu.edu.tr/2024/SIMVEC/)
 
-<img width="2400" alt="image" src="https://github.com/eliflali/SimVec/assets/63200204/b4aa5575-0fbc-4861-b3f3-6071a27489d9">
+<img width="2400" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/b4aa5575-0fbc-4861-b3f3-6071a27489d9">
 
 
 
@@ -18,14 +18,14 @@ SimVec is a small and easy-to-use app, with some extra features to make it even 
 
 
 
-https://github.com/eliflali/SimVec/assets/63200204/a95f5886-9c17-4bf8-a326-9bc88c8be62a
+https://github.com/atakangelecek/SimVec/assets/63200204/a95f5886-9c17-4bf8-a326-9bc88c8be62a
 
 
 
 
 ## Component Diagram
 
-<img width="706" alt="image" src="https://github.com/eliflali/SimVec/assets/63200204/fccdcaee-aa5f-4bb9-8345-88378d83eff7">
+<img width="706" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/fccdcaee-aa5f-4bb9-8345-88378d83eff7">
 
 The description of the overall system architecture above is the following. There shall be a client application, namely Mobile Application, that the user can interact with. This client application shall have a good-looking and user friendly GUI in the front-end part. This client application shall send and receive data with the server. Although there may be several data incoming and outgoing in the client application, the main data that will be sent and received is the image or text.
 
@@ -118,6 +118,6 @@ When a user performs a search, the request (image-based or text-based) is sent t
 
 The user receives the search results on their device, which includes the images similar to their query.
 
-<img width="1455" alt="image" src="https://github.com/eliflali/SimVec/assets/63200204/279e7370-6fe3-4bd4-a8dd-c1b3f4c489b5">
+<img width="1455" alt="image" src="https://github.com/atakangelecek/SimVec/assets/63200204/279e7370-6fe3-4bd4-a8dd-c1b3f4c489b5">
 
 
